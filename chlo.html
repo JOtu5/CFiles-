@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family:Arial;text-align:center">
+
+<h1>Race To October</h1>
+
+<script>
+function u(id,code){
+if(document.getElementById(id+"c").value===code){
+document.getElementById(id+"v").style.display="block";
+}else{alert("Wrong code");}
+}
+</script>
+
+
+<h2>February</h2>
+<input id="febc">
+<button onclick="u('feb','CODE1')">Unlock</button>
+<div id="febv" style="display:none">
+VIDEO HERE
+</div>
+
+
+<h2>March</h2>
+<input id="marc">
+<button onclick="u('mar','CODE2')">Unlock</button>
+<div id="marv" style="display:none">
+VIDEO HERE
+</div>
+
+</body>
+</html>
